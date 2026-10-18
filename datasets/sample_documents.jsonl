@@ -1,0 +1,10 @@
+{"id":"doc-0000","text":"vector search and analytics discussion for dataset entry 0","metadata":{"category":"analytics","language":"en","source":"synthetic-0","tenant":"tenant-0","published":true}}
+{"id":"doc-0001","text":"rag pipeline and engineering discussion for dataset entry 1","metadata":{"category":"engineering","language":"en","source":"synthetic-1","tenant":"tenant-1","published":false}}
+{"id":"doc-0002","text":"postgresql and research discussion for dataset entry 2","metadata":{"category":"research","language":"en","source":"synthetic-2","tenant":"tenant-2","published":true}}
+{"id":"doc-0003","text":"opensearch and products discussion for dataset entry 3","metadata":{"category":"products","language":"en","source":"synthetic-3","tenant":"tenant-0","published":false}}
+{"id":"doc-0004","text":"pinecone and ops discussion for dataset entry 4","metadata":{"category":"ops","language":"en","source":"synthetic-4","tenant":"tenant-1","published":true}}
+{"id":"doc-0005","text":"chroma and analytics discussion for dataset entry 5","metadata":{"category":"analytics","language":"en","source":"synthetic-0","tenant":"tenant-2","published":false}}
+{"id":"doc-0006","text":"metadata filtering and engineering discussion for dataset entry 6","metadata":{"category":"engineering","language":"en","source":"synthetic-1","tenant":"tenant-0","published":true}}
+{"id":"doc-0007","text":"semantic retrieval and research discussion for dataset entry 7","metadata":{"category":"research","language":"en","source":"synthetic-2","tenant":"tenant-1","published":false}}
+{"id":"doc-0008","text":"benchmarking and products discussion for dataset entry 8","metadata":{"category":"products","language":"en","source":"synthetic-3","tenant":"tenant-2","published":true}}
+{"id":"doc-0009","text":"embedding quality and ops discussion for dataset entry 9","metadata":{"category":"ops","language":"en","source":"synthetic-4","tenant":"tenant-0","published":false}}
