@@ -1,0 +1,20 @@
+dataset:
+  path: datasets/sample_documents.jsonl
+  dimension: 8
+  count: 200
+  seed: 42
+
+search:
+  top_k: 5
+  metadata_filter:
+    category: analytics
+    published: true
+
+benchmark:
+  iterations: 5
+  queries:
+    - semantic search
+    - vector retrieval
+    - metadata filter
+    - embedding pipeline
+    - database indexing
