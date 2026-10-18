@@ -1,0 +1,34 @@
+services:
+  opensearch:
+    image: opensearchproject/opensearch:2.19.0
+    container_name: vector-lab-opensearch
+    environment:
+      - discovery.type=single-node
+      - OPENSEARCH_INITIAL_ADMIN_PASSWORD=LocalOnly-Change-Me-2026!
+      - DISABLE_SECURITY_PLUGIN=true
+      - plugins.security.disabled=true
+      - bootstrap.memory_lock=true
+      - "OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - "9200:9200"
+      - "9600:9600"
+
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: vector-lab-postgres
+    environment:
+      POSTGRES_DB: vector_lab
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d:ro
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
